@@ -126,17 +126,19 @@ Simple word frequency methods produced meaningful summaries after cleaning.
 ## 6. Representative Work
 
 ### Project 1: NLP Pipeline
+https://github.com/teflxndxn/nlp-06-nlp-pipeline
 
-Repository contains staged EVTL workflow with extract, validate, transform, and load scripts.
+This project demonstrates a complete EVTL workflow for extracting, validating, transforming, and loading text data. It best represents my ability to build repeatable NLP pipelines.
 
 ### Project 2: Web Documents
+https://github.com/teflxndxn/nlp-05-web-documents
 
-Used BeautifulSoup to extract and clean website content for analysis.
+This project focused on scraping and processing HTML web pages using Python and BeautifulSoup. It represents my web mining and text extraction skills.
 
 ### Project 3: API Text Data
+https://github.com/teflxndxn/nlp-04-api-text-data
 
-Processed JSON data from APIs and analyzed text fields.
-
+This project used APIs and JSON data sources for text analysis. It demonstrates my ability to work with structured external data.
 ---
 
 ## 7. Skills
