@@ -105,17 +105,17 @@ A key takeaway was that structured workflows convert messy web text into useful 
 ## 6. Representative Work
 
 ### Project 1: NLP Pipeline
-https://github.com/teflxndxn/nlp-06-nlp-pipeline
+[View NLP Pipeline](https://github.com/teflxndxn/nlp-06-nlp-pipeline)
 
 Complete EVTL workflow using staged Python scripts for extraction, validation, transformation, and loading. Best example of my repeatable NLP pipeline skills.
 
 ### Project 2: Web Documents
-https://github.com/teflxndxn/nlp-05-web-documents
+[View Web Documents](https://github.com/teflxndxn/nlp-05-web-documents)
 
 Focused on extracting and cleaning HTML web content using Python and BeautifulSoup. Demonstrates web mining and content extraction skills.
 
 ### Project 3: API Text Data
-https://github.com/teflxndxn/nlp-04-api-text-data
+[View API Text Data](https://github.com/teflxndxn/nlp-04-api-text-data)
 
 Used APIs and JSON data sources for text analysis and structured outputs. Demonstrates data integration and processing skills.
 
