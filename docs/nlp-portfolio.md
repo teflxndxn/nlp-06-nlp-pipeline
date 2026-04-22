@@ -1,125 +1,104 @@
 # NLP Portfolio – Web Mining & Applied NLP
-**Blessing Aganaga**
-MS Data Analytics Student | Python | NLP | Web Mining
 
-## Overview
-
-This portfolio highlights my work in Web Mining and Applied Natural Language Processing (NLP). Across multiple projects, I built repeatable Python pipelines to extract data from websites, APIs, HTML documents, and text sources, then transformed that data into useful insights using Python and NLP tools.
-
-I used libraries such as **spaCy, requests, BeautifulSoup, pandas, json, matplotlib, and TextBlob**.
+**Author:** Blessing Aganaga
+**Course:** Web Mining & Applied NLP
 
 ---
 
 ## 1. NLP Techniques Implemented
 
-### Tokenization
-Used word and sentence tokenization to split text into analyzable units.
+- **Tokenization**
+  - Used in `stage03_transform_blessing.py` and `stage03_transform_case.py` to split cleaned text into tokens for analysis.
 
-### Text Cleaning & Normalization
-Performed lowercasing, punctuation removal, stopword filtering, and lemmatization.
+- **Text Cleaning and Normalization**
+  - Applied lowercasing, punctuation removal, whitespace cleanup, and token filtering.
 
-### Frequency Analysis
-Computed unigram and n-gram frequencies to identify common terms.
+- **Frequency Analysis**
+  - Computed token counts and top-word frequency outputs.
+  - Generated:
+    - `blessing_top_tokens.png`
+    - `case_top_tokens.png`
 
-### Sentiment Analysis
-Used spaCy + TextBlob tools to analyze polarity and subjectivity.
+- **Web Scraping / HTML Extraction**
+  - Used `stage01_extract.py` to collect raw HTML content from web sources.
+  - Saved raw files:
+    - `data/raw/blessing_raw.html`
+    - `data/raw/case_raw.html`
 
-### API + JSON Processing
-Extracted and processed JSON text data from APIs.
+- **API-Based Text Processing**
+  - Completed structured JSON extraction and transformation in `nlp-04-api-text-data`.
 
-### Web Scraping / HTML Extraction
-Used BeautifulSoup to parse text, headings, and metadata from websites.
+- **Visualization**
+  - Created word cloud and token chart outputs for text comparison.
 
 ---
 
 ## 2. Systems and Data Sources
 
-I analyzed several data formats:
+- **HTML Web Pages**
+  - Extracted and analyzed raw website content.
 
-- Web pages (HTML)
-- APIs (JSON)
-- Plain text files
-- Markdown documents
+- **JSON API Data**
+  - Processed structured text records from APIs in Module 4.
 
-### Challenges Handled
+- **Processed CSV Outputs**
+  - Generated cleaned structured outputs:
+    - `blessing_processed.csv`
+    - `case_processed.csv`
 
-- Missing values
-- Inconsistent HTML structure
-- Extra whitespace
-- Duplicate content
-- Mixed capitalization
+- **Handling Messy Data**
+  - Removed HTML noise and markup.
+  - Standardized inconsistent formatting.
+  - Filtered unnecessary punctuation and empty values.
 
 ---
 
 ## 3. Pipeline Structure (EVTL)
 
-## Extract
+- **Extract**
+  - Used `stage01_extract.py` to collect source data and save raw HTML files.
 
-Collected text using:
+- **Validate**
+  - Used:
+    - `stage02_validate_blessing.py`
+    - `stage02_validate_case.py`
+  - Checked source structure and file readiness before processing.
 
-- requests.get()
-- BeautifulSoup
-- Reading local files
-- API calls
+- **Transform**
+  - Used:
+    - `stage03_transform_blessing.py`
+    - `stage03_transform_case.py`
+  - Applied tokenization, cleaning, normalization, and preparation for analysis.
 
-## Validate
-
-Checked:
-
-- Response status codes
-- Missing values
-- Required fields
-- Empty content
-- Duplicate rows
-
-## Transform
-
-Applied:
-
-- Tokenization
-- Stopword removal
-- Lemmatization
-- Sentiment scoring
-- Frequency counts
-
-## Load
-
-Saved outputs into:
-
-- CSV files
-- Markdown reports
-- Console summaries
-- Visualizations
+- **Load**
+  - Used `stage04_load.py` to save processed outputs, summaries, and visualizations.
 
 ---
 
 ## 4. Signals and Analysis Methods
 
-Computed:
+- Word frequency and top-token counts
+- Keyword prominence across datasets
+- Vocabulary comparisons between sources
+- Visual signals using charts and word clouds
+- Structured CSV summaries for downstream review
 
-- Word frequency
-- Keyword relevance
-- Context/co-occurrence
-- Sentiment polarity
-- Subjectivity
-- Text length
-- Vocabulary size
+Outputs included:
+
+- `blessing_top_tokens.png`
+- `case_top_tokens.png`
 
 ---
 
 ## 5. Insights
 
-My analysis revealed:
+- Cleaned text produced better keyword results than raw HTML.
+- Validation steps improved reliability before transformation.
+- Frequency charts quickly highlighted repeated topic terms.
+- Word cloud visuals made dominant themes easier to recognize.
+- Repeatable pipelines made it easier to process multiple sources consistently.
 
-- Frequent words often captured main topics.
-- Cleaned text improved keyword quality.
-- HTML pages required more preprocessing than APIs.
-- Repeatable pipelines improved consistency.
-- Sentiment tools worked best on opinion-based text.
-
-### Surprising Result
-
-Simple word frequency methods produced meaningful summaries after cleaning.
+A key takeaway was that structured workflows convert messy web text into useful analytical outputs.
 
 ---
 
@@ -128,34 +107,35 @@ Simple word frequency methods produced meaningful summaries after cleaning.
 ### Project 1: NLP Pipeline
 https://github.com/teflxndxn/nlp-06-nlp-pipeline
 
-This project demonstrates a complete EVTL workflow for extracting, validating, transforming, and loading text data. It best represents my ability to build repeatable NLP pipelines.
+Complete EVTL workflow using staged Python scripts for extraction, validation, transformation, and loading. Best example of my repeatable NLP pipeline skills.
 
 ### Project 2: Web Documents
 https://github.com/teflxndxn/nlp-05-web-documents
 
-This project focused on scraping and processing HTML web pages using Python and BeautifulSoup. It represents my web mining and text extraction skills.
+Focused on extracting and cleaning HTML web content using Python and BeautifulSoup. Demonstrates web mining and content extraction skills.
 
 ### Project 3: API Text Data
 https://github.com/teflxndxn/nlp-04-api-text-data
 
-This project used APIs and JSON data sources for text analysis. It demonstrates my ability to work with structured external data.
+Used APIs and JSON data sources for text analysis and structured outputs. Demonstrates data integration and processing skills.
+
 ---
 
 ## 7. Skills
 
 - Python data processing
-- Web scraping
-- JSON parsing
-- NLP preprocessing
-- Tokenization
-- Sentiment analysis
-- Data validation
-- Repeatable EVTL pipelines
-- Markdown reporting
-- Communicating results professionally
+- Working with HTML, JSON, and CSV data
+- Web scraping with BeautifulSoup
+- Text cleaning and normalization
+- Tokenization and frequency analysis
+- Building repeatable EVTL pipelines
+- Data validation workflows
+- Creating charts and word clouds
+- Professional Markdown documentation
+- Communicating analytical results clearly
 
 ---
 
 ## Conclusion
 
-This portfolio demonstrates practical experience transforming raw text into useful insights using Python and NLP workflows.
+This portfolio demonstrates practical experience using Python and NLP workflows to extract, clean, analyze, and present text data from multiple sources. These projects strengthened my skills in automation, analytics, and professional technical communication.
